@@ -138,4 +138,4 @@ bot.on('guildMemberRemove', async member => {
   await channel.send(embed)
 });
 
-bot.login(process.env.TOKEN);
+bot.login(process.env.BOT_TOKEN);
